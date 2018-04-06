@@ -18,6 +18,7 @@
 		E772659A20730A54007D65BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772659820730A54007D65BE /* Main.storyboard */; };
 		E772659C20730A54007D65BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E772659B20730A54007D65BE /* Assets.xcassets */; };
 		E772659F20730A54007D65BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772659D20730A54007D65BE /* LaunchScreen.storyboard */; };
+		E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22320772D3100FB1F49 /* AuthService.swift */; };
 		FA40D3D5E92908194E68E309 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366601D69D34D9C6CF990A00 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		E772659B20730A54007D65BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E772659E20730A54007D65BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77265A020730A54007D65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B2C22320772D3100FB1F49 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		E772659320730A54007D65BE /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				E7B2C22220772D1400FB1F49 /* Services */,
 				E70D2245207484F1007F5693 /* Utilities */,
 				E70D223E20732880007F5693 /* Model */,
 				E70D223D2073287A007F5693 /* View */,
@@ -148,6 +151,14 @@
 				E77265A020730A54007D65BE /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		E7B2C22220772D1400FB1F49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2C22320772D3100FB1F49 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				E70D2242207328B5007F5693 /* ChannelVC.swift in Sources */,
 				E70D2240207328A2007F5693 /* ChatVC.swift in Sources */,
 				E70D224B20749A01007F5693 /* CreateAccountVC.swift in Sources */,
+				E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */,
 				E70D224920748AAE007F5693 /* LoginVC.swift in Sources */,
 				E70D2244207348DB007F5693 /* GradientView.swift in Sources */,
 				E772659520730A54007D65BE /* AppDelegate.swift in Sources */,
