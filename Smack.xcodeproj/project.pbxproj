@@ -19,6 +19,7 @@
 		E772659C20730A54007D65BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E772659B20730A54007D65BE /* Assets.xcassets */; };
 		E772659F20730A54007D65BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772659D20730A54007D65BE /* LaunchScreen.storyboard */; };
 		E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22320772D3100FB1F49 /* AuthService.swift */; };
+		E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C225207747A100FB1F49 /* RoundedButton.swift */; };
 		FA40D3D5E92908194E68E309 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366601D69D34D9C6CF990A00 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		E772659E20730A54007D65BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77265A020730A54007D65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7B2C22320772D3100FB1F49 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E7B2C225207747A100FB1F49 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				E70D2243207348DB007F5693 /* GradientView.swift */,
+				E7B2C225207747A100FB1F49 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E70D2242207328B5007F5693 /* ChannelVC.swift in Sources */,
+				E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */,
 				E70D2240207328A2007F5693 /* ChatVC.swift in Sources */,
 				E70D224B20749A01007F5693 /* CreateAccountVC.swift in Sources */,
 				E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */,
