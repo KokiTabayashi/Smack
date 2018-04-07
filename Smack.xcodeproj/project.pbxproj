@@ -20,6 +20,7 @@
 		E772659F20730A54007D65BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772659D20730A54007D65BE /* LaunchScreen.storyboard */; };
 		E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22320772D3100FB1F49 /* AuthService.swift */; };
 		E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C225207747A100FB1F49 /* RoundedButton.swift */; };
+		E7B2C22820793A5F00FB1F49 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22720793A5F00FB1F49 /* UserDataService.swift */; };
 		FA40D3D5E92908194E68E309 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366601D69D34D9C6CF990A00 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		E77265A020730A54007D65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7B2C22320772D3100FB1F49 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E7B2C225207747A100FB1F49 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E7B2C22720793A5F00FB1F49 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B2C22320772D3100FB1F49 /* AuthService.swift */,
+				E7B2C22720793A5F00FB1F49 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				E70D2242207328B5007F5693 /* ChannelVC.swift in Sources */,
 				E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */,
 				E70D2240207328A2007F5693 /* ChatVC.swift in Sources */,
+				E7B2C22820793A5F00FB1F49 /* UserDataService.swift in Sources */,
 				E70D224B20749A01007F5693 /* CreateAccountVC.swift in Sources */,
 				E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */,
 				E70D224920748AAE007F5693 /* LoginVC.swift in Sources */,
