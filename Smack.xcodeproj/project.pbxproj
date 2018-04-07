@@ -21,6 +21,8 @@
 		E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22320772D3100FB1F49 /* AuthService.swift */; };
 		E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C225207747A100FB1F49 /* RoundedButton.swift */; };
 		E7B2C22820793A5F00FB1F49 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22720793A5F00FB1F49 /* UserDataService.swift */; };
+		E7B2C22A2079535300FB1F49 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C2292079535300FB1F49 /* AvatarPickerVC.swift */; };
+		E7B2C22C207955A400FB1F49 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22B207955A400FB1F49 /* AvatarCell.swift */; };
 		FA40D3D5E92908194E68E309 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366601D69D34D9C6CF990A00 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		E7B2C22320772D3100FB1F49 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E7B2C225207747A100FB1F49 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		E7B2C22720793A5F00FB1F49 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		E7B2C2292079535300FB1F49 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		E7B2C22B207955A400FB1F49 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				E70D2241207328B5007F5693 /* ChannelVC.swift */,
 				E70D224820748AAE007F5693 /* LoginVC.swift */,
 				E70D224A20749A01007F5693 /* CreateAccountVC.swift */,
+				E7B2C2292079535300FB1F49 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			children = (
 				E70D2243207348DB007F5693 /* GradientView.swift */,
 				E7B2C225207747A100FB1F49 /* RoundedButton.swift */,
+				E7B2C22B207955A400FB1F49 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E70D2242207328B5007F5693 /* ChannelVC.swift in Sources */,
+				E7B2C22A2079535300FB1F49 /* AvatarPickerVC.swift in Sources */,
 				E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */,
 				E70D2240207328A2007F5693 /* ChatVC.swift in Sources */,
 				E7B2C22820793A5F00FB1F49 /* UserDataService.swift in Sources */,
@@ -311,6 +318,7 @@
 				E7B2C22420772D3100FB1F49 /* AuthService.swift in Sources */,
 				E70D224920748AAE007F5693 /* LoginVC.swift in Sources */,
 				E70D2244207348DB007F5693 /* GradientView.swift in Sources */,
+				E7B2C22C207955A400FB1F49 /* AvatarCell.swift in Sources */,
 				E772659520730A54007D65BE /* AppDelegate.swift in Sources */,
 				E70D223B207324C7007F5693 /* SWRevealViewController.m in Sources */,
 				E70D22472074851A007F5693 /* Constants.swift in Sources */,
