@@ -24,6 +24,8 @@
 		E7B2C22A2079535300FB1F49 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C2292079535300FB1F49 /* AvatarPickerVC.swift */; };
 		E7B2C22C207955A400FB1F49 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22B207955A400FB1F49 /* AvatarCell.swift */; };
 		E7B2C22E2079753C00FB1F49 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22D2079753C00FB1F49 /* CircleImage.swift */; };
+		E7B2C2312079A70F00FB1F49 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22F2079A70F00FB1F49 /* ProfileVC.swift */; };
+		E7B2C2322079A70F00FB1F49 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B2C2302079A70F00FB1F49 /* ProfileVC.xib */; };
 		FA40D3D5E92908194E68E309 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366601D69D34D9C6CF990A00 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		E7B2C2292079535300FB1F49 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E7B2C22B207955A400FB1F49 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		E7B2C22D2079753C00FB1F49 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		E7B2C22F2079A70F00FB1F49 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E7B2C2302079A70F00FB1F49 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 				E70D224820748AAE007F5693 /* LoginVC.swift */,
 				E70D224A20749A01007F5693 /* CreateAccountVC.swift */,
 				E7B2C2292079535300FB1F49 /* AvatarPickerVC.swift */,
+				E7B2C22F2079A70F00FB1F49 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 		E772659320730A54007D65BE /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				E7B2C2332079A73200FB1F49 /* XIBs */,
 				E7B2C22220772D1400FB1F49 /* Services */,
 				E70D2245207484F1007F5693 /* Utilities */,
 				E70D223E20732880007F5693 /* Model */,
@@ -174,6 +180,14 @@
 				E7B2C22720793A5F00FB1F49 /* UserDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E7B2C2332079A73200FB1F49 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2C2302079A70F00FB1F49 /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B2C2322079A70F00FB1F49 /* ProfileVC.xib in Resources */,
 				E772659F20730A54007D65BE /* LaunchScreen.storyboard in Resources */,
 				E772659C20730A54007D65BE /* Assets.xcassets in Resources */,
 				E772659A20730A54007D65BE /* Main.storyboard in Resources */,
@@ -312,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B2C2312079A70F00FB1F49 /* ProfileVC.swift in Sources */,
 				E70D2242207328B5007F5693 /* ChannelVC.swift in Sources */,
 				E7B2C22A2079535300FB1F49 /* AvatarPickerVC.swift in Sources */,
 				E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */,
