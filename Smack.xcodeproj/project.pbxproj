@@ -26,6 +26,8 @@
 		E7B2C22E2079753C00FB1F49 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22D2079753C00FB1F49 /* CircleImage.swift */; };
 		E7B2C2312079A70F00FB1F49 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C22F2079A70F00FB1F49 /* ProfileVC.swift */; };
 		E7B2C2322079A70F00FB1F49 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B2C2302079A70F00FB1F49 /* ProfileVC.xib */; };
+		E7B2C235207AC47300FB1F49 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C234207AC47300FB1F49 /* MessageService.swift */; };
+		E7B2C237207AC4A100FB1F49 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2C236207AC4A100FB1F49 /* Channel.swift */; };
 		FA40D3D5E92908194E68E309 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366601D69D34D9C6CF990A00 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		E7B2C22D2079753C00FB1F49 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E7B2C22F2079A70F00FB1F49 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		E7B2C2302079A70F00FB1F49 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		E7B2C234207AC47300FB1F49 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		E7B2C236207AC4A100FB1F49 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 		E70D223E20732880007F5693 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E7B2C236207AC4A100FB1F49 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			children = (
 				E7B2C22320772D3100FB1F49 /* AuthService.swift */,
 				E7B2C22720793A5F00FB1F49 /* UserDataService.swift */,
+				E7B2C234207AC47300FB1F49 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -331,7 +337,9 @@
 				E70D2242207328B5007F5693 /* ChannelVC.swift in Sources */,
 				E7B2C22A2079535300FB1F49 /* AvatarPickerVC.swift in Sources */,
 				E7B2C226207747A100FB1F49 /* RoundedButton.swift in Sources */,
+				E7B2C237207AC4A100FB1F49 /* Channel.swift in Sources */,
 				E7B2C22E2079753C00FB1F49 /* CircleImage.swift in Sources */,
+				E7B2C235207AC47300FB1F49 /* MessageService.swift in Sources */,
 				E70D2240207328A2007F5693 /* ChatVC.swift in Sources */,
 				E7B2C22820793A5F00FB1F49 /* UserDataService.swift in Sources */,
 				E70D224B20749A01007F5693 /* CreateAccountVC.swift in Sources */,
